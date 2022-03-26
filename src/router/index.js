@@ -2,16 +2,21 @@
  * @Author: Chris
  * @Date: 2022-03-20 17:01:50
  * @LastEditors: Chris
- * @LastEditTime: 2022-03-20 17:24:53
+ * @LastEditTime: 2022-03-26 15:09:43
  * @Descripttion: **
  */
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-// import Home from '../views/Home.vue'
+import Login from '@/views/login/index.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
+  {
+    path: '/login',
+    name: 'Login',
+    componet: Login
+  }
   // {
   //   path: '/',
   //   name: 'Home',
